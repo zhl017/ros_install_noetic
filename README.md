@@ -22,6 +22,19 @@ wget -c https://raw.githubusercontent.com/qboticslabs/ros_install_noetic/master/
 ```
 
 --------------------------------------------------------------------------
+Single line ROS Galactic Install
+
+```
+wget -c https://raw.githubusercontent.com/zhl017/ros_install_noetic/zhl017/ros2_install_galactic.sh && chmod +x ./ros2_install_galactic.sh && ./ros2_install_galactic.sh
+
+```
+Single line ROS Galactic Uninstall
+
+```
+wget -c https://raw.githubusercontent.com/zhl017/ros_install_noetic/zhl017/ros2_uninstall_galactic.sh && chmod +x ./ros2_uninstall_galactic.sh && ./ros2_uninstall_galactic.sh
+```
+
+--------------------------------------------------------------------------
 Single line ROS Noetic Install
 
 
