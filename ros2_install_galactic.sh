@@ -109,27 +109,22 @@ sudo apt upgrade
 echo ""
 echo "#######################################################################################################################"
 echo ">>> {Step 5: Install ROS, you pick how much of ROS you would like to install.}"
-echo "     [1. Desktop Full Install: (Recommended) : Everything in Desktop plus 2D/3D simulators and 2D/3D perception packages ]"
+echo "     [1. Desktop Install: (Recommended) : ROS, RViz, demos, tutorials.]"
 echo ""
-echo "     [2. Desktop Install: Everything in Desktop ]"
+echo "     [2. ROS-Base: (Bare Bones)：Communication libraries, message packages, command line tools. No GUI tools.]"
 echo ""
-echo "     [2. ROS-Base: (Bare Bones) ROS packaging, build, and communication libraries. No GUI tools.]"
-echo ""
-#Assigning default value as 1: Desktop full install
+#Assigning default value as 1: Desktop install
 read -p "Enter your install (Default is 1):" answer 
 
 case "$answer" in
   1)
-    package_type="desktop-full"
-    ;;
-  2)
     package_type="desktop"
     ;;
-  3)
+  2)
     package_type="ros-base"
     ;;    
   * )
-    package_type="desktop-full"
+    package_type="desktop"
     ;;
 esac
 echo "#######################################################################################################################"
