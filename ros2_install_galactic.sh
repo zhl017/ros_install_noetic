@@ -6,11 +6,11 @@
 
 #set -x
 
-name_ros_distro=humble 
+name_ros_distro=galactic 
 user_name=$(whoami)
 echo "#######################################################################################################################"
 echo ""
-echo ">>> {Starting ROS 2 Humble Installation}"
+echo ">>> {Starting ROS 2 Galactic Installation}"
 echo ""
 echo ">>> {Checking your Ubuntu version} "
 echo ""
@@ -20,15 +20,15 @@ relesenum=`grep DISTRIB_DESCRIPTION /etc/*-release | awk -F 'Ubuntu ' '{print $2
 echo ">>> {Your Ubuntu version is: [Ubuntu $version $relesenum]}"
 #Checking version is focal, if yes proceed othervice quit
 case $version in
-  "jammy" )
+  "focal" )
   ;;
   *)
-    echo ">>> {ERROR: This script will only work on Ubuntu Jammy (22.04).}"
+    echo ">>> {ERROR: This script will only work on Ubuntu Focal (20.04).}"
     exit 0
 esac
 
 echo ""
-echo ">>> {ROS 2 HUmble is fully compatible with Ubuntu Jammy 22.04}"
+echo ">>> {ROS 2 Galactic is fully compatible with Ubuntu Focal 20.04.}"
 echo ""
 echo "#######################################################################################################################"
 echo ">>> {Step 1: Configure your Ubuntu repositories}"
