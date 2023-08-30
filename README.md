@@ -12,13 +12,13 @@ You can just copy-paste the command below in your terminal for installing and un
 Single line ROS Humble Install
 
 ```
-wget -c https://raw.githubusercontent.com/qboticslabs/ros_install_noetic/master/ros2_install_humble.sh && chmod +x ./ros2_install_humble.sh && ./ros2_install_humble.sh
+wget -c https://raw.githubusercontent.com/zhl017/ros_install_noetic/zhl017/ros2_install_humble.sh && chmod +x ./ros2_install_humble.sh && ./ros2_install_humble.sh
 
 ```
 Single line ROS Humble Uninstall
 
 ```
-wget -c https://raw.githubusercontent.com/qboticslabs/ros_install_noetic/master/ros2_uninstall_humble.sh && chmod +x ./ros2_uninstall_humble.sh && ./ros2_uninstall_humble.sh
+wget -c https://raw.githubusercontent.com/zhl017/ros_install_noetic/zhl017/ros2_uninstall_humble.sh && chmod +x ./ros2_uninstall_humble.sh && ./ros2_uninstall_humble.sh
 ```
 
 --------------------------------------------------------------------------
@@ -39,12 +39,12 @@ Single line ROS Noetic Install
 
 
 ```
-wget -c https://raw.githubusercontent.com/qboticslabs/ros_install_noetic/master/ros_install_noetic.sh && chmod +x ./ros_install_noetic.sh && ./ros_install_noetic.sh
+wget -c https://raw.githubusercontent.com/zhl017/ros_install_noetic/zhl017/ros_install_noetic.sh && chmod +x ./ros_install_noetic.sh && ./ros_install_noetic.sh
 ```
 Single line ROS Noetic Uninstall
 
 ```
-wget -c https://raw.githubusercontent.com/qboticslabs/ros_install_noetic/master/ros_uninstall_noetic.sh && chmod +x ./ros_uninstall_noetic.sh && ./ros_uninstall_noetic.sh
+wget -c https://raw.githubusercontent.com/zhl017/ros_install_noetic/zhl017/ros_uninstall_noetic.sh && chmod +x ./ros_uninstall_noetic.sh && ./ros_uninstall_noetic.sh
 ```
 
 
